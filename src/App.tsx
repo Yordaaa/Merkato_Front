@@ -1,7 +1,15 @@
-export default function App() {
+import AppRoutes from "./AppRoutes";
+
+function App() {
   return (
-    <h1 className="text-3xl font-bold underline ">
-      Hello merkato
-    </h1>
-  )
+    <>
+      <div className="bg-gray-100 dark:bg-gray-800">
+
+        <AppRoutes />
+     
+      </div>
+    </>
+  );
 }
+
+export default App;
