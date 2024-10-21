@@ -1,13 +1,11 @@
 import AppRoutes from "./AppRoutes";
+import Header from "./components/Header";
 
 function App() {
   return (
     <>
-      <div className="bg-gray-100 dark:bg-gray-800">
-
+    <Header />
         <AppRoutes />
-     
-      </div>
     </>
   );
 }
